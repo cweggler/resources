@@ -84,6 +84,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="descr" destination="Kwd-Bk-Qte" id="Lt8-Gl-Xff"/>
+                        <outlet property="name" destination="Q4k-us-dvY" id="OjW-Kp-neH"/>
+                        <outlet property="url" destination="KBo-dD-9Ad" id="s3j-ne-FMc"/>
                         <segue destination="mv1-bf-xBS" kind="show" id="huf-H8-GyE"/>
                     </connections>
                 </viewController>

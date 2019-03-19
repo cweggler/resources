@@ -10,4 +10,5 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    var resource: Resource!
 }

@@ -6,4 +6,8 @@
 //  Copyright © 2019 Cara. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class DetailViewController: UIViewController {
+    
+}

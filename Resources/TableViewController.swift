@@ -10,4 +10,8 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
+    var resources: [Resource]!
+    
+    
+    
 }

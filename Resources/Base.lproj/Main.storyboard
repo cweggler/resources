@@ -36,7 +36,9 @@
                             <outlet property="delegate" destination="ZQq-dQ-0Na" id="iVY-ZA-Bl1"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Programmer Resources" id="mu2-F5-oCn"/>
+                    <navigationItem key="navigationItem" title="Programmer Resources" id="mu2-F5-oCn">
+                        <barButtonItem key="backBarButtonItem" title="Resources" id="UI2-jz-Syf"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kpP-K9-otm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

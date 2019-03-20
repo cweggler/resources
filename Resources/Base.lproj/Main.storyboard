@@ -59,13 +59,13 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kwd-Bk-Qte">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kwd-Bk-Qte">
                                         <rect key="frame" x="166.5" y="201" width="42" height="201"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBo-dD-9Ad">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBo-dD-9Ad">
                                         <rect key="frame" x="166.5" y="402" width="42" height="201"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -87,7 +87,7 @@
                         <outlet property="descr" destination="Kwd-Bk-Qte" id="Lt8-Gl-Xff"/>
                         <outlet property="name" destination="Q4k-us-dvY" id="OjW-Kp-neH"/>
                         <outlet property="url" destination="KBo-dD-9Ad" id="s3j-ne-FMc"/>
-                        <segue destination="mv1-bf-xBS" kind="show" id="huf-H8-GyE"/>
+                        <segue destination="mv1-bf-xBS" kind="show" identifier="showWebView" id="huf-H8-GyE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -120,6 +120,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hIS-y0-bxj"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="2sS-t9-rap" id="DLL-hj-ns1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mm2-Es-Vby" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

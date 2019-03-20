@@ -10,7 +10,11 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    var resource: Resource!
+    var resource: Resource! {
+        didSet {
+            navigationItem.title = resource.name
+        }
+    }
     
     @IBOutlet var name: UILabel!
     @IBOutlet var descr: UILabel!

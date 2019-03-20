@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Programmer Resources-->
         <scene sceneID="TEG-Sg-O48">
             <objects>
                 <tableViewController id="ZQq-dQ-0Na" customClass="TableViewController" customModule="Resources" customModuleProvider="target" sceneMemberID="viewController">
@@ -36,7 +36,7 @@
                             <outlet property="delegate" destination="ZQq-dQ-0Na" id="iVY-ZA-Bl1"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="mu2-F5-oCn"/>
+                    <navigationItem key="navigationItem" title="Programmer Resources" id="mu2-F5-oCn"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kpP-K9-otm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
